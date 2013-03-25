@@ -5,7 +5,7 @@ Created on Fri Jan 25 08:41:48 2013
 @author: guy
 """
 
-class refstruct(dict):
+class RefStruct(dict):
     """Implementation of perl's autovivification feature."""
     def __getitem__(self, item):
         try:
